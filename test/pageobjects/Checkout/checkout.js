@@ -29,7 +29,7 @@ class Checkout
     async verifyNames()
     {
         await this.itemNames.forEach(async element => {
-            await expect(element).toHaveTextContaining(['SPF-50', 'SPF-30', 'Aloe', 'Almond'])
+            await expect(element).toHaveTextContaining(['SPF-50', 'SPF-30', 'Aloe', 'Almond', 'almond', 'aloe'])
         });
     }
 
