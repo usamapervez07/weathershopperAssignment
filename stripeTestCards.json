@@ -1,0 +1,7 @@
+{
+    "email" : "test@example.com",
+    "cardNnumber" : "4242424242424242",
+    "expiry" : "1224",
+    "cvc" : "555",
+    "zipCode" : "46000"
+}

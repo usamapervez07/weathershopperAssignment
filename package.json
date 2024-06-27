@@ -1,0 +1,22 @@
+{
+  "name": "automation-assignment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio run wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@wdio/cli": "^8.38.0",
+    "date-fns": "^3.6.0",
+    "webdriverio": "^8.38.0"
+  },
+  "devDependencies": {
+    "@wdio/cucumber-framework": "^8.38.0",
+    "@wdio/local-runner": "^8.38.0",
+    "@wdio/mocha-framework": "^8.38.0",
+    "@wdio/spec-reporter": "^8.38.0"
+  }
+}
